@@ -1,0 +1,40 @@
+nav {
+  display: inline-block;
+  color: black;
+}
+header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: MediumAquaMarine;
+}
+.logo img {
+  padding-right: 15px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+}
