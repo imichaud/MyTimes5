@@ -19,22 +19,24 @@ header {
   padding-right: 15px;
 }
 #main {
+  display: inline-block;
+  flex-direction: column;
+}
+#first {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
-}
-.first {
-  display: flex;
   width: 630px;
   border: 3px solid black;
 }
-.second {
+#second {
   display: flex;
+  flex-direction: column;
   width: 300px;
   border: 3px solid black;
 }
-.third {
+#third {
   display: flex;
+  flex-direction: column;
   width: 240px;
   border: 3px solid black;
 }
